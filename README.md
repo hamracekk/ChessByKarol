@@ -1,5 +1,5 @@
 # ChessByKarol
-Po stiahnutí súborov (Images.zip, ChessEngine, ChessMain), je potrebné súbory vložiť do jedného priečinku (ChessEngine a ChessMain spolu s rozbaleným súborom Images.zip).
+Po stiahnutí súboru Chess.zip(v ktorom sú Images.zip, ChessEngine, ChessMain), je potrebné súbory vložiť do jedného priečinku (ChessEngine a ChessMain spolu s rozbaleným súborom Images.zip).
 Chess main vyžaduje balíček pygame. 
 Výstupom tohto programu je klasická šachová partia medzi dvojicou hráčou.
 Šach spustíme kliknutím na zelenú šipku (Štart - klasicke spúštanie programu Python) v pravom hornom rohu.
