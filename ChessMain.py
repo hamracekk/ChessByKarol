@@ -68,7 +68,7 @@ def main():
                         stvorecdocas = (riadok, stlpec)
                         Posledny_tah.append(stvorecdocas)
                         """Ak hráč klikne na inú pozíciu, tak pozícia je uložená  do premennej Posledny_tah"""
-                    if len(Posledny_tah) == 2:
+                    if len(Posledny_tah) == 2 and Posledny_tah[0] != ():
                         """Ak su v liste uložene dva kliknutia ... tak chceme vykonať ťah. 
                         Za ťahy bude zodpovedná trieda class-Pohyby - v ChessEngine.py"""
                         Tah = ChessEngine.Pohyby(Posledny_tah[0], Posledny_tah[1], SH.sachovnica)
